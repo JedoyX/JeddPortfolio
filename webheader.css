@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/forest.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding: 5px;
+}
+nav ul li a:hover{
+    background: darkgray;
+    
+ 
+}
+
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+
+}
+
+p {
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px;
+    background: white;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: background 0.5s;
+
+}
+
+.btn:hover {
+    background: lightgray;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+
+.card1 {
+    background-image: url(images/services.jpg);
+}
+
+.card2 {
+    background-image: url(images/gallerycover.jfif);
+}
+
+.card3 {
+    background-image: url(images/aboutmecover.jpg);
+}
+
+.card4 {
+    background-image: url(images/contactme.png);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: white;
+    text-shadow: 0 0 5px #999;
+
+}
+
+.card p{
+    text-shadow: 0 0 15px #999;
+    font-size: 8px;
+}
